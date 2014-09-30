@@ -7,17 +7,17 @@ Usage:
 
 If you don’t already have virtualenv, install it:
 
-    ```pip install virtualenv```
+    pip install virtualenv
 
 Enter the project directory and activate the virtualenv:
 
-    ```cd mods_nltk/ && source env/bin/activate```
+    cd mods_nltk/ && source env/bin/activate```
 
 Install the required packages:
 
-    ```pip install requirements.txt```
+    pip install requirements.txt
 
 Run the Named Entity Recognition (ner) script!
 
-    ```python ner.py```
+    python ner.py
 
