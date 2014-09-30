@@ -19,7 +19,7 @@ Enter the project directory and activate the virtualenv:
 
 Install the required packages:
 
-    pip install requirements.txt
+    pip install -r requirements.txt
 
 Run the Named Entity Recognition (ner) script!
 
