@@ -1,13 +1,7 @@
 import nltk
-import xml.etree.ElementTree as etree
+import mods_article
 
-def get_mods_article_text(xml_article):
-        tree = etree.parse(xml_article)
-        find_article = tree.findall('{http://www.loc.gov/mods/v3}note')
-        article_content = find_article[0].text
-        return article_content
-
-article = get_mods_article_text('sample_data.mods.xml')
+article = mods_article.get_mods_article_text('sample_data.mods.xml')
 tokens = nltk.word_tokenize(article)
 tagged = nltk.pos_tag(tokens)
 entities = nltk.chunk.ne_chunk(tagged)
