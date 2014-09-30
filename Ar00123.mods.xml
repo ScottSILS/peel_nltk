@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3">
+<!--Article-level MODS for article artModsBib_1_23: /home/ddev/working/martini/mods/1/Ar00123.mods.xml-->
+<!--pagenumlist: 1-->
+<!--pageid: pageModsBib1; pagelist: 1-->
+<titleInfo>
+<title>Body Burnt to Crisp</title>
+</titleInfo>
+<genre>Newspaper article</genre>
+<relatedItem type="host">
+<genre>Newspaper issue</genre>
+<part>
+<detail type="volume">
+<number>8</number>
+</detail>
+<detail type="issue">
+<number>149</number>
+</detail>
+<detail type="edition">
+<number>1</number>
+</detail>
+<date encoding="w3cdtf">1911-01-03</date>
+<extent unit="pages">
+<list>p. 1</list>
+</extent>
+</part>
+</relatedItem>
+<extent>Small</extent>
+<extent unit="words">46</extent>
+<language>en</language>
+<note type="content" xml:space="preserve">
+llody Ilurnt to Crl... H
+Ilrhuol, Nil, Jail. he hortf of H
+Ollvsr Km'not waa found burned to a M
+erlsp In th ruin ot hi home here. H
+after th flremtn had extinguished a H
+firs which gutted th pisee Th
+vdaujhter escsped. H
+
+</note>
+<recordInfo>
+<recordIdentifier>EDB/1911/01/03/1/Ar00123</recordIdentifier>
+</recordInfo>
+</mods>
