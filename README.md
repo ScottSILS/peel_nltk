@@ -1,4 +1,4 @@
-mods_nltk
+peel_nltk
 =========
 
 Using Python's Natural Language Toolkit (NLTK) to parse named entities out of OCR'd newspapers from the University of Alberta PEEL Repository.
