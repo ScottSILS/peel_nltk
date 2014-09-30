@@ -9,9 +9,13 @@ If you don’t already have virtualenv, install it:
 
     pip install virtualenv
 
+Enter the project directory and create a new virtualenv:
+
+    cd mods_nltk/ && virtualenv venv
+
 Enter the project directory and activate the virtualenv:
 
-    cd mods_nltk/ && source env/bin/activate```
+    source venv/bin/activate
 
 Install the required packages:
 

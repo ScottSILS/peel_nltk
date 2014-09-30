@@ -7,7 +7,7 @@ def get_mods_article_text(xml_article):
         article_content = find_article[0].text
         return article_content
 
-article = get_mods_article_text('Ar00123.mods.xml')
+article = get_mods_article_text('sample_data.mods.xml')
 tokens = nltk.word_tokenize(article)
 tagged = nltk.pos_tag(tokens)
 entities = nltk.chunk.ne_chunk(tagged)
