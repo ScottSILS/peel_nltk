@@ -13,7 +13,7 @@ Enter the project directory and create a new virtualenv:
 
     cd mods_nltk/ && virtualenv venv
 
-Enter the project directory and activate the virtualenv:
+Activate the virtualenv:
 
     source venv/bin/activate
 
