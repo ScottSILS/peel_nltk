@@ -6,5 +6,8 @@ tokens = nltk.word_tokenize(article)
 tagged = nltk.pos_tag(tokens)
 entities = nltk.chunk.ne_chunk(tagged)
 
-print entities
-
+for entity in entities:
+    if isinstance(entity, nltk.tree.Tree):
+        label = entity.label()
+        if label == 'PERSON':
+            print entity

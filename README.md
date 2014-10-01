@@ -11,7 +11,7 @@ If you don’t already have virtualenv, install it:
 
 Enter the project directory and create a new virtualenv:
 
-    cd mods_nltk/ && virtualenv venv
+    cd peel_nltk/ && virtualenv venv
 
 Activate the virtualenv:
 
