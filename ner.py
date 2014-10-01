@@ -10,4 +10,5 @@ for entity in entities:
     if isinstance(entity, nltk.tree.Tree):
         label = entity.label()
         if label == 'PERSON':
-            print entity
+            for person in entity.leaves():
+                print person[0]
