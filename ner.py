@@ -22,6 +22,8 @@ def get_ne_persons(mods_xml_article):
                 if label == 'PERSON':
                     for person in entity.leaves():
                         print person[0]
+    else:
+        print "No article text found!"
 
 for mods_xml_article in find_files('data', 'Ar*.mods.xml'):
     get_ne_persons(mods_xml_article)
